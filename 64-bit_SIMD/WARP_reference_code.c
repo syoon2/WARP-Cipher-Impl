@@ -5,7 +5,7 @@
 
 #define R 41    /*round number*/
 #define RN    6    /*rotation number*/
-#define BR    32  /*brunch number*/
+#define BR    32  /*branch number*/
 #define BR_HALF    (BR / 2)  /*half of the branch number*/
 
 int Sbox[BR_HALF] = { 0xc, 0xa, 0xd, 0x3, 0xe, 0xb, 0xf, 0x7, 0x8, 0x9, 0x1, 0x5, 0x0, 0x2, 0x4, 0x6 };
